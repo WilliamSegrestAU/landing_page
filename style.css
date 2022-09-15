@@ -105,6 +105,11 @@
 /* QUOTE CONTAINER */
 
 .quote {
+    margin: 128px 0;
+    padding: 128px 0;
+}
+
+.quote_text, .person_quoted {
     display: flex;
     flex-direction: column;
     flex: auto;
@@ -114,13 +119,12 @@
 }
 
 .quote .quote_text {
-    align-self: center;
     font-size: 36px;
     font-style: italic;
 }
 
 .quote .person_quoted {
-    align-self: flex-end;
+    text-align: end;
     font-size: 18px;
     font-weight: 900;
 }

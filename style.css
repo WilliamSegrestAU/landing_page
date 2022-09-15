@@ -1,0 +1,58 @@
+body {
+    margin: 0 128px;
+}
+
+/*
+
+    HEADER
+
+*/
+
+.header_top {
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.header_top ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+.header_bottom {
+    margin: 128px 0;
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_bottom .left {
+    width: 400px;
+}
+
+.header_bottom .heading {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.header_bottom .subtext {
+    font-size: 18px;
+}
+
+.header_bottom button {
+    margin-top: 8px;
+    padding: 8px 42px;
+    border-radius: 8px;
+}
+
+.header_bottom .right {
+    padding: 100px;
+    border: 2px solid black;
+}

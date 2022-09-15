@@ -1,12 +1,14 @@
-body {
-    margin: 0 128px;
-}
+
 
 /*
 
     HEADER
 
 */
+
+.header {
+    margin: 0 128px;
+}
 
 .header_top {
     display: flex;
@@ -100,3 +102,25 @@ body {
     font-weight: 18px;
 }
 
+/* QUOTE CONTAINER */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    width: 745px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quote .quote_text {
+    align-self: center;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote .person_quoted {
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: 900;
+}

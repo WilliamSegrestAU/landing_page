@@ -134,7 +134,6 @@
 
 .action {
     margin: 128px 0;
-    border: 2px solid rebeccapurple;
     display: flex;
     flex: auto;
     align-items: center;
